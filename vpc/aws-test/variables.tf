@@ -1,3 +1,3 @@
 variable "address_space" {}
 
-variable "prefix" {}
+variable "vpc_env" {}

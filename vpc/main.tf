@@ -24,6 +24,6 @@ variable "secret_key" {
 }
 
 
-module "dev-webservices" {
+module "dev" {
   source = "environments/dev"
 }

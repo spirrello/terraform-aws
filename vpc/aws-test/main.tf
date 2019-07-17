@@ -1,6 +1,6 @@
-resource "aws_vpc" "myplace" {
+resource "aws_vpc" "vpc" {
   cidr_block       = "${var.address_space}"
   tags = {
-    Name = "${var.prefix}-myplace"
+    Name = "${var.vpc_env}"
   }
 }
